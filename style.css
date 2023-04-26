@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli';
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: #36802d;
+    color: #fff;
+    padding: 1.3rem 2rem;
+}
+
+.navbar a {
+    position: relative;
+    color: #fff;
+    bottom: 3px;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: bold;
+    transition: color linear 0.3s;
+}
+
+.navbar a:hover {
+    color: #234d20;
+    transition: color linear 0.3s;
+}
+
+.sub-nav {
+    display: inline-flex;
+}
+
+.sub-nav a {
+    position: relative;
+    justify-content: center;
+    margin-right: 2rem;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    height: auto;
+    transition: all linear 0.2s;
+}
+
+.sub-nav a:hover {
+    transform: scale(1.2);
+    transition: all linear 0.2s;
+}
+
+.left-container {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    background-color: #fff;
+    color: #36802d;
+
+}
+
+.left-container .text {
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+    text-align: justify;
+    margin-right: 7rem;
+    line-height: 1.5;
+}
+
+.left-container img {
+    width: 25%;
+    height: 25%;
+    margin: 100px 150px;
+    border-radius: 10px;
+}
+
+.right-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #36802d;
+    color: #fff;
+    margin-right: 100px;
+    width: 100%;
+}
+
+.right-container img {
+    width: 25%;
+    height: 25%;
+    margin: 100px 150px;
+    border-radius: 10px;
+}
+
+.right-container .text {
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.5;
+    margin-right: 7rem;
+}
+
+.footer {
+    display: flex;
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding: 30px 30px;
+    color: #234d20;
+}
+
+footer a {
+    text-decoration: none;
+    color: #36802d;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.links a {
+    display: flex;
+    text-decoration: none;
+    color: #36802d;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    float: right;
+    margin-top: 15px;
+    padding: 30px 30px;
+}
