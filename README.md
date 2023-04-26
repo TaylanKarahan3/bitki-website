@@ -8,7 +8,7 @@ Kendimi geliştirmeye başlayıp daha ileri seviye siteler yapmayı deneyeceğim
 
 # EN
 # Plant Web Site
-Hello, this website is very beginnig level and simple site contains info about plants.
+Hello, this website is very beginner level and simple site contains info about plants.
 <br>
 You can reach site [here].
 <br><br>
