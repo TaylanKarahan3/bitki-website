@@ -1,6 +1,7 @@
 # TR
 # Bitki Website
 Merhaba, bu site oldukça giriş seviyesi ve basit olan bir "Bitki" bilgileri olan sitedir.
+Kendimi geliştirmeye başlayıp daha ileri seviye siteler yapmayı deneyeceğim.
 
 # EN
 # Plant Web Site
